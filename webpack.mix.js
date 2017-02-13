@@ -18,4 +18,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
 //     "public/bower_components/jquery-colorbox/example3/colorbox.css",
 //     "public/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css"
 // ], 'public/css/vendor.css', 'public');
-// mix.scriptsIn("public/js/menubar",  'public/js/menubar.js');
+mix.scriptsIn("public/js/menubar",  'public/js/menubar.js');

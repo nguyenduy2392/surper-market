@@ -16,3 +16,10 @@ Route::get('/', function () {
 });
 Route::get('/home', 'HomeController@index');
 
+Route::post('/user-login', 'Auth\LoginController@postLogin');
+Route::post('/user-logout', 'Auth\LoginController@postLogout');
+
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index');

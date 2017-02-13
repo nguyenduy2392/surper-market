@@ -1,0 +1,21 @@
+.slideshow {
+    width: 1000px !important;
+    height: 500px !important;
+    margin: auto !important;
+}
+.slideshow li, .slideshow li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.slideshow .slide-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.slideshow li a img {
+    display: none;
+}

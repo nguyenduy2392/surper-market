@@ -1,0 +1,17 @@
+#login-dlg-content {
+	display: none;
+}
+.login-dlg h4.title {
+	background-color: black;
+    padding: 15px 5px;
+    color: white;
+}
+.login-dlg #email, .login-dlg #password, .login-dlg #action {
+	margin-top: 10px; 
+}
+.login-show {
+	display: inline-block !important;
+}
+.login-hide {
+	display: none !important;
+}

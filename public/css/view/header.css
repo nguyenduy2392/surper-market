@@ -39,8 +39,7 @@
     opacity: 1;
 }
 nav.menu-home-page {
-  width: 750px;
-  margin: 1em auto;
+  height: 65px;
 }
 
 nav.menu-home-page ul{

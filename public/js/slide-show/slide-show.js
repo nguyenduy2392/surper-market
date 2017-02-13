@@ -1,0 +1,1 @@
+var slsh = new SlideShow('.slideshow', {timeout: 5000});

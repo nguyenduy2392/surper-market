@@ -1,0 +1,26 @@
+{
+  "name": "simple-slideshow",
+  "version": "2.0.0",
+  "main": "src/slideshow.js",
+  "description": "Simple slideshow library with no dependencies like jQuery.",
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    "package.json",
+    "gulpfile.js",
+    "README.md",
+    "demo",
+    "test"
+  ],
+  "homepage": "https://github.com/omichelsen/simple-slideshow",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "c5bd025cfa8c245abf78d5ddd201408fa43473db"
+  },
+  "_source": "https://github.com/omichelsen/simple-slideshow.git",
+  "_target": "^2.0.0",
+  "_originalSource": "omichelsen/simple-slideshow",
+  "_direct": true
+}

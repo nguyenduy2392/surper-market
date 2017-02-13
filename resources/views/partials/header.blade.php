@@ -1,4 +1,4 @@
-<header class="col-xs-12 container-fluid header-basic">
+<header class="col-xs-12 header-basic">
     <div class="row">
         <div class="header-limiter">
             <h1><a href="#">Company<span>logo</span></a></h1>
@@ -8,12 +8,19 @@
                 <a href="#">Pricing</a>
                 <a href="#">About</a>
                 <a href="#">Faq</a>
-                <a href="#">Contact</a>
+                <a class="login-name {{ ($login ? 'login-show' : 'login-hide') }}" href="#">{{ $login ? Auth::user()->name : '' }}</a>
+                <a class="logout-dlg-link {{ ($login ? 'login-show' : 'login-hide') }}" href="javascript:void(0);" data-action-link="{{ URL::action('Auth\LoginController@postLogout') }}">Logout</a>
+                <a class="login-dlg-link {{ ($login ? 'login-hide' : 'login-show') }}" href="#inline_content">Login</a>
             </nav>
         </div>
     </div>
 </header><!-- end fixed header -->
-<nav class="menu-home-page">
+<div id="login-dlg-content" class="col-xs-6">
+    <div id='inline_content' style='padding:10px; background:#fff;'>
+        @include('partials.auth.login')
+    </div>
+</div>
+<nav class="menu-home-page col-xs-12">
     <ul class="dropdown">
         <li class="drop"><a href="#">Really Tall Menu</a>
             <ul class="sub_menu">
